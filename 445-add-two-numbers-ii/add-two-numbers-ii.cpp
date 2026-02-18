@@ -47,6 +47,7 @@ public:
             sum = NewHead;
         }
         if(sum->next == NULL) return sum;
+        
         while(sum != NULL && sum->val ==0){
             ListNode* del = sum;
             sum = sum->next;
